@@ -8,3 +8,8 @@ function testTuples() {
     console.log(id);
 }
 testTuples();
+var constantName = "This is constant";
+// constantName = "reassign" constant can not re-assign
+var nonConstantName = "This is not constant";
+nonConstantName = "I can reassign";
+console.log(typeof nonConstantName);

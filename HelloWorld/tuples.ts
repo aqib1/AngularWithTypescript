@@ -8,10 +8,21 @@ function testTuples() {
     )
 
     const [name, drivingLicense, id] = ourTuples
-    
+
     console.log(name)
     console.log(drivingLicense)
     console.log(id)
 }
 
 testTuples()
+
+
+const constantName = "This is constant"
+
+// constantName = "reassign" constant can not re-assign
+
+let nonConstantName = "This is not constant"
+
+nonConstantName = "I can reassign"
+
+console.log(typeof nonConstantName)
