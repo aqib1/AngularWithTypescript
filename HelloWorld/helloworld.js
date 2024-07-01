@@ -9,4 +9,4 @@ console.log(anyType);
 anyType = "This is any type";
 console.log(anyType);
 var round = Math.round(anyType);
-console.log(round);
+console.log(round); // this will be NaN
